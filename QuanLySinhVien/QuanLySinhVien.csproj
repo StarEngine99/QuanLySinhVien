@@ -131,6 +131,7 @@
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="image\27551.png" />
+    <Content Include="image\WebForm1.aspx" />
     <Content Include="QuanLySinhVien.aspx" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
@@ -220,6 +221,13 @@
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="image\WebForm1.aspx.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="image\WebForm1.aspx.designer.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
     </Compile>
     <Compile Include="model\ChiTietDonHang.cs" />
     <Compile Include="model\ChuDe.cs" />
